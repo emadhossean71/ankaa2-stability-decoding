@@ -1,0 +1,196 @@
+
+=== circuit_22 (with resets): learn on the even shots, grade on the others ===
+28 knobs: data 51 start, data 45 start, diag 45 start, data 43 start, diag 51 start, data 37 start, diag 37 start, diag 43 start, data 51 mid, data 45 mid, diag 45 mid, data 43 mid, diag 51 mid, data 37 mid, diag 37 mid, diag 43 mid, data 51 end, data 45 end, diag 45 end, data 43 end, diag 51 end, data 37 end, diag 37 end, diag 43 end, soft 36, soft 38, soft 50, soft 52
+epoch   1   error rate at mu 0.1510   untuned 0.1510   mean width 0.149     0.7 min
+epoch   2   error rate at mu 0.1476   untuned 0.1476   mean width 0.149     1.4 min
+epoch   3   error rate at mu 0.1499   untuned 0.1510   mean width 0.148     2.1 min
+epoch   4   error rate at mu 0.1486   untuned 0.1511   mean width 0.147     2.8 min
+epoch   5   error rate at mu 0.1475   untuned 0.1497   mean width 0.145     3.5 min
+epoch   6   error rate at mu 0.1472   untuned 0.1514   mean width 0.144     4.2 min
+epoch   7   error rate at mu 0.1449   untuned 0.1474   mean width 0.143     4.9 min
+epoch   8   error rate at mu 0.1406   untuned 0.1471   mean width 0.142     5.6 min
+epoch   9   error rate at mu 0.1517   untuned 0.1569   mean width 0.141     6.2 min
+epoch  10   error rate at mu 0.1449   untuned 0.1520   mean width 0.140     6.9 min
+epoch  11   error rate at mu 0.1560   untuned 0.1614   mean width 0.140     7.6 min
+epoch  12   error rate at mu 0.1426   untuned 0.1457   mean width 0.139     8.3 min
+epoch  13   error rate at mu 0.1415   untuned 0.1465   mean width 0.139     9.0 min
+epoch  14   error rate at mu 0.1355   untuned 0.1434   mean width 0.138     9.6 min
+epoch  15   error rate at mu 0.1485   untuned 0.1499   mean width 0.137    10.3 min
+epoch  16   error rate at mu 0.1429   untuned 0.1466   mean width 0.137    10.9 min
+epoch  17   error rate at mu 0.1449   untuned 0.1486   mean width 0.137    11.6 min
+epoch  18   error rate at mu 0.1476   untuned 0.1552   mean width 0.137    12.3 min
+epoch  19   error rate at mu 0.1542   untuned 0.1624   mean width 0.136    13.0 min
+epoch  20   error rate at mu 0.1391   untuned 0.1447   mean width 0.136    13.7 min
+epoch  21   error rate at mu 0.1459   untuned 0.1497   mean width 0.136    14.4 min
+epoch  22   error rate at mu 0.1465   untuned 0.1512   mean width 0.135    15.1 min
+epoch  23   error rate at mu 0.1422   untuned 0.1476   mean width 0.135    15.8 min
+epoch  24   error rate at mu 0.1486   untuned 0.1560   mean width 0.134    16.5 min
+epoch  25   error rate at mu 0.1375   untuned 0.1399   mean width 0.133    17.2 min
+epoch  26   error rate at mu 0.1460   untuned 0.1514   mean width 0.132    17.9 min
+epoch  27   error rate at mu 0.1437   untuned 0.1494   mean width 0.130    18.6 min
+epoch  28   error rate at mu 0.1425   untuned 0.1466   mean width 0.129    19.2 min
+epoch  29   error rate at mu 0.1446   untuned 0.1530   mean width 0.129    19.8 min
+epoch  30   error rate at mu 0.1398   untuned 0.1459   mean width 0.128    20.5 min
+epoch  31   error rate at mu 0.1485   untuned 0.1520   mean width 0.128    21.1 min
+epoch  32   error rate at mu 0.1499   untuned 0.1506   mean width 0.126    21.7 min
+epoch  33   error rate at mu 0.1444   untuned 0.1501   mean width 0.125    22.4 min
+epoch  34   error rate at mu 0.1425   untuned 0.1510   mean width 0.124    23.0 min
+epoch  35   error rate at mu 0.1441   untuned 0.1492   mean width 0.124    23.6 min
+epoch  36   error rate at mu 0.1407   untuned 0.1479   mean width 0.124    24.3 min
+epoch  37   error rate at mu 0.1424   untuned 0.1469   mean width 0.123    24.9 min
+epoch  38   error rate at mu 0.1429   untuned 0.1524   mean width 0.123    25.6 min
+epoch  39   error rate at mu 0.1355   untuned 0.1450   mean width 0.123    26.2 min
+epoch  40   error rate at mu 0.1492   untuned 0.1593   mean width 0.123    26.8 min
+epoch  41   error rate at mu 0.1411   untuned 0.1500   mean width 0.122    27.4 min
+epoch  42   error rate at mu 0.1420   untuned 0.1477   mean width 0.122    28.0 min
+epoch  43   error rate at mu 0.1378   untuned 0.1491   mean width 0.121    28.7 min
+epoch  44   error rate at mu 0.1409   untuned 0.1477   mean width 0.121    29.3 min
+epoch  45   error rate at mu 0.1434   untuned 0.1495   mean width 0.121    29.9 min
+epoch  46   error rate at mu 0.1378   untuned 0.1496   mean width 0.121    30.5 min
+epoch  47   error rate at mu 0.1446   untuned 0.1540   mean width 0.121    31.1 min
+epoch  48   error rate at mu 0.1442   untuned 0.1527   mean width 0.120    31.8 min
+epoch  49   error rate at mu 0.1477   untuned 0.1571   mean width 0.119    32.4 min
+epoch  50   error rate at mu 0.1459   untuned 0.1505   mean width 0.119    33.0 min
+
+held-out shots: untuned 0.1527   tuned 0.1465   difference -0.62 % points [-0.83, -0.42]   p = 3.0e-09
+
+knob                  multiplier   width
+soft 50                    0.702   0.097
+soft 38                    0.788   0.080
+data 37 start              0.821   0.118
+data 43 start              0.827   0.111
+soft 36                    0.861   0.106
+data 51 start              0.862   0.114
+data 45 start              0.882   0.137
+diag 51 mid                0.888   0.082
+soft 52                    0.892   0.095
+diag 37 start              0.947   0.132
+diag 37 end                0.955   0.153
+diag 51 end                0.972   0.139
+data 51 mid                0.978   0.101
+data 45 end                1.006   0.144
+diag 45 mid                1.012   0.098
+data 43 mid                1.056   0.116
+diag 43 end                1.061   0.160
+diag 51 start              1.113   0.105
+data 37 end                1.124   0.133
+diag 45 end                1.130   0.126
+data 43 end                1.143   0.171
+data 45 mid                1.144   0.125
+diag 45 start              1.147   0.118
+data 51 end                1.183   0.136
+diag 37 mid                1.272   0.097
+diag 43 start              1.276   0.124
+data 37 mid                1.309   0.119
+diag 43 mid                1.518   0.108
+
+Where it sits on the ladder (circuit_22, 23 decoding rounds, with resets)
+decoder                                        error rate  vs Riverlane best   graded on
+Our MWPM (hard readings, generic weights)          17.03%          +1.13 pts   these 50,000 shots
+Our blend                                          16.30%          +0.40 pts   these 50,000 shots
+Riverlane's best (soft information + p_ij)         15.90%                  -   published, all 100,000 shots
+Our blend + soft                                   15.27%          -0.63 pts   these 50,000 shots
+Blend + soft + PPO-tuned knobs                     14.65%          -1.25 pts   these 50,000 shots
+
+=== circuit_22 (with resets): learn on the odd shots, grade on the others ===
+28 knobs: data 51 start, data 45 start, diag 45 start, data 43 start, diag 51 start, data 37 start, diag 37 start, diag 43 start, data 51 mid, data 45 mid, diag 45 mid, data 43 mid, diag 51 mid, data 37 mid, diag 37 mid, diag 43 mid, data 51 end, data 45 end, diag 45 end, data 43 end, diag 51 end, data 37 end, diag 37 end, diag 43 end, soft 36, soft 38, soft 50, soft 52
+epoch   1   error rate at mu 0.1554   untuned 0.1554   mean width 0.148     0.6 min
+epoch   2   error rate at mu 0.1522   untuned 0.1536   mean width 0.148     1.3 min
+epoch   3   error rate at mu 0.1496   untuned 0.1514   mean width 0.147     1.9 min
+epoch   4   error rate at mu 0.1546   untuned 0.1566   mean width 0.146     2.5 min
+epoch   5   error rate at mu 0.1457   untuned 0.1474   mean width 0.145     3.2 min
+epoch   6   error rate at mu 0.1555   untuned 0.1560   mean width 0.144     3.9 min
+epoch   7   error rate at mu 0.1520   untuned 0.1540   mean width 0.143     4.5 min
+epoch   8   error rate at mu 0.1510   untuned 0.1520   mean width 0.144     5.2 min
+epoch   9   error rate at mu 0.1459   untuned 0.1505   mean width 0.145     5.9 min
+epoch  10   error rate at mu 0.1484   untuned 0.1535   mean width 0.144     6.5 min
+epoch  11   error rate at mu 0.1510   untuned 0.1520   mean width 0.143     7.2 min
+epoch  12   error rate at mu 0.1477   untuned 0.1521   mean width 0.142     7.8 min
+epoch  13   error rate at mu 0.1568   untuned 0.1581   mean width 0.141     8.5 min
+epoch  14   error rate at mu 0.1490   untuned 0.1502   mean width 0.141     9.1 min
+epoch  15   error rate at mu 0.1482   untuned 0.1505   mean width 0.141     9.8 min
+epoch  16   error rate at mu 0.1509   untuned 0.1527   mean width 0.140    10.5 min
+epoch  17   error rate at mu 0.1511   untuned 0.1540   mean width 0.141    11.1 min
+epoch  18   error rate at mu 0.1482   untuned 0.1496   mean width 0.140    11.7 min
+epoch  19   error rate at mu 0.1467   untuned 0.1500   mean width 0.140    12.4 min
+epoch  20   error rate at mu 0.1474   untuned 0.1544   mean width 0.139    13.0 min
+epoch  21   error rate at mu 0.1450   untuned 0.1482   mean width 0.139    13.6 min
+epoch  22   error rate at mu 0.1557   untuned 0.1552   mean width 0.139    14.3 min
+epoch  23   error rate at mu 0.1475   untuned 0.1511   mean width 0.138    14.9 min
+epoch  24   error rate at mu 0.1470   untuned 0.1525   mean width 0.137    15.5 min
+epoch  25   error rate at mu 0.1447   untuned 0.1512   mean width 0.137    16.2 min
+epoch  26   error rate at mu 0.1442   untuned 0.1494   mean width 0.135    16.8 min
+epoch  27   error rate at mu 0.1539   untuned 0.1584   mean width 0.133    17.4 min
+epoch  28   error rate at mu 0.1487   untuned 0.1550   mean width 0.133    18.0 min
+epoch  29   error rate at mu 0.1504   untuned 0.1514   mean width 0.132    18.6 min
+epoch  30   error rate at mu 0.1437   untuned 0.1494   mean width 0.131    19.2 min
+epoch  31   error rate at mu 0.1536   untuned 0.1601   mean width 0.130    19.8 min
+epoch  32   error rate at mu 0.1435   untuned 0.1489   mean width 0.129    20.5 min
+epoch  33   error rate at mu 0.1415   untuned 0.1469   mean width 0.129    21.1 min
+epoch  34   error rate at mu 0.1477   untuned 0.1529   mean width 0.128    21.7 min
+epoch  35   error rate at mu 0.1456   untuned 0.1519   mean width 0.128    22.3 min
+epoch  36   error rate at mu 0.1465   untuned 0.1495   mean width 0.128    22.9 min
+epoch  37   error rate at mu 0.1430   untuned 0.1511   mean width 0.127    23.6 min
+epoch  38   error rate at mu 0.1459   untuned 0.1509   mean width 0.127    24.2 min
+epoch  39   error rate at mu 0.1482   untuned 0.1589   mean width 0.126    24.8 min
+epoch  40   error rate at mu 0.1425   untuned 0.1484   mean width 0.126    25.4 min
+epoch  41   error rate at mu 0.1505   untuned 0.1574   mean width 0.125    26.1 min
+epoch  42   error rate at mu 0.1497   untuned 0.1535   mean width 0.124    26.7 min
+epoch  43   error rate at mu 0.1436   untuned 0.1532   mean width 0.123    27.3 min
+epoch  44   error rate at mu 0.1479   untuned 0.1564   mean width 0.123    28.0 min
+epoch  45   error rate at mu 0.1491   untuned 0.1516   mean width 0.122    28.7 min
+epoch  46   error rate at mu 0.1470   untuned 0.1515   mean width 0.122    29.3 min
+epoch  47   error rate at mu 0.1489   untuned 0.1586   mean width 0.121    30.0 min
+epoch  48   error rate at mu 0.1446   untuned 0.1539   mean width 0.121    30.6 min
+epoch  49   error rate at mu 0.1499   untuned 0.1583   mean width 0.121    31.3 min
+epoch  50   error rate at mu 0.1399   untuned 0.1527   mean width 0.121    31.9 min
+
+held-out shots: untuned 0.1505   tuned 0.1426   difference -0.79 % points [-1.02, -0.57]   p = 4.2e-12
+
+knob                  multiplier   width
+soft 50                    0.666   0.106
+soft 38                    0.684   0.095
+data 37 start              0.763   0.167
+soft 36                    0.774   0.100
+diag 51 end                0.784   0.123
+data 43 start              0.804   0.118
+data 51 mid                0.891   0.105
+data 51 start              0.895   0.122
+data 45 start              0.904   0.154
+diag 37 start              0.942   0.146
+diag 51 mid                0.944   0.093
+soft 52                    0.952   0.085
+data 37 end                0.963   0.128
+data 45 end                0.970   0.159
+diag 51 start              1.023   0.118
+data 43 end                1.080   0.124
+diag 43 end                1.089   0.161
+data 43 mid                1.099   0.103
+diag 43 start              1.102   0.132
+diag 37 end                1.120   0.131
+data 51 end                1.137   0.105
+diag 45 mid                1.149   0.102
+diag 45 end                1.173   0.103
+data 37 mid                1.188   0.123
+diag 45 start              1.190   0.135
+data 45 mid                1.389   0.113
+diag 37 mid                1.484   0.122
+diag 43 mid                1.642   0.117
+
+Where it sits on the ladder (circuit_22, 23 decoding rounds, with resets)
+decoder                                        error rate  vs Riverlane best   graded on
+Our MWPM (hard readings, generic weights)          16.90%          +1.00 pts   these 50,000 shots
+Our blend                                          16.07%          +0.17 pts   these 50,000 shots
+Riverlane's best (soft information + p_ij)         15.90%                  -   published, all 100,000 shots
+Our blend + soft                                   15.05%          -0.85 pts   these 50,000 shots
+Blend + soft + PPO-tuned knobs                     14.26%          -1.64 pts   these 50,000 shots
+
+circuit_22, every shot graded once: untuned 0.1516   tuned 0.1446   difference -0.71 % points [-0.86, -0.56]   p = 6.8e-20
+
+Where it sits on the ladder (circuit_22, 23 decoding rounds, with resets)
+decoder                                        error rate  vs Riverlane best   graded on
+Our MWPM (hard readings, generic weights)          16.97%          +1.07 pts   these 100,000 shots
+Our blend                                          16.19%          +0.29 pts   these 100,000 shots
+Riverlane's best (soft information + p_ij)         15.90%                  -   published, all 100,000 shots
+Our blend + soft                                   15.16%          -0.74 pts   these 100,000 shots
+Blend + soft + PPO-tuned knobs                     14.46%          -1.45 pts   these 100,000 shots

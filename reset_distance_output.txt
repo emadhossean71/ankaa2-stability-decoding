@@ -1,0 +1,36 @@
+
+no resets
+  circuit_2    N =  4   readout errors only:  2   Riverlane's full model:  2
+  circuit_4    N =  6   readout errors only:  3   Riverlane's full model:  3
+  circuit_6    N =  8   readout errors only:  4   Riverlane's full model:  4
+  circuit_8    N = 10   readout errors only:  5   Riverlane's full model:  5
+  circuit_10   N = 12   readout errors only:  6   Riverlane's full model:  6
+  circuit_12   N = 14   readout errors only:  7   Riverlane's full model:  7
+  circuit_14   N = 16   readout errors only:  8   Riverlane's full model:  8
+  circuit_16   N = 18   readout errors only:  9   Riverlane's full model:  9
+  circuit_18   N = 20   readout errors only: 10   Riverlane's full model: 10
+  circuit_20   N = 22   readout errors only: 11   Riverlane's full model: 11
+  circuit_22   N = 24   readout errors only: 12   Riverlane's full model: 12
+  circuit_24   N = 26   readout errors only: 13   Riverlane's full model: 13
+
+with resets
+  circuit_2    N =  4   readout errors only:  4   Riverlane's full model:  4
+  circuit_6    N =  8   readout errors only:  8   Riverlane's full model:  8
+  circuit_10   N = 12   readout errors only: 12   Riverlane's full model: 12
+  circuit_14   N = 16   readout errors only: 16   Riverlane's full model: 16
+  circuit_18   N = 20   readout errors only: 20   Riverlane's full model: 20
+  circuit_22   N = 24   readout errors only: 24   Riverlane's full model: 24
+
+Riverlane's model, simulated and decoded with its own matching decoder (logical error rate, %):
+p = 0.03
+  T =  7   no resets   5.90   with resets   0.85   advantage  +5.05 +- 0.11   (detectors firing 0.150 / 0.151)
+  T = 11   no resets   2.49   with resets   0.15   advantage  +2.34 +- 0.07   (detectors firing 0.152 / 0.151)
+  T = 15   no resets   1.14   with resets   0.03   advantage  +1.11 +- 0.05   (detectors firing 0.152 / 0.151)
+  T = 19   no resets   0.50   with resets   0.01   advantage  +0.50 +- 0.03   (detectors firing 0.152 / 0.151)
+  T = 23   no resets   0.24   with resets   0.00   advantage  +0.24 +- 0.02   (detectors firing 0.152 / 0.151)
+p = 0.082
+  T =  7   no resets  33.47   with resets  17.76   advantage +15.71 +- 0.27   (detectors firing 0.318 / 0.320)
+  T = 11   no resets  29.66   with resets  11.95   advantage +17.71 +- 0.25   (detectors firing 0.320 / 0.320)
+  T = 15   no resets  26.61   with resets   8.41   advantage +18.20 +- 0.23   (detectors firing 0.321 / 0.320)
+  T = 19   no resets  23.80   with resets   5.95   advantage +17.85 +- 0.21   (detectors firing 0.321 / 0.319)
+  T = 23   no resets  21.62   with resets   4.32   advantage +17.31 +- 0.20   (detectors firing 0.322 / 0.319)

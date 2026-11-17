@@ -1,0 +1,68 @@
+lambda_scan.py, run in the cloud on 25 October 2026 (Stim 1.16.0, PyMatching 2.4.0, NumPy 2.5.3).
+Circuits rebuilt from circuit.txt for each number of rounds (checked: circuit_10 reproduces circuit.txt line for line;
+every run's detector count and rounds match detectors.npz; generic 23.61 % and lambda = 0.75 22.57 % match the guide).
+
+done circuit_4
+done circuit_8
+done circuit_6
+done circuit_10
+done circuit_12
+done circuit_16
+done circuit_14
+done circuit_18
+done circuit_20
+done circuit_24
+done circuit_22
+
+checks: generic weights 23.6070%, lambda = 0 23.6070%  (guide: 23.61 %);  lambda = 0.75 22.5729%  (guide: 22.57 %)
+
+ lambda    pooled   vs 0.75 (points)            95 % range   McNemar p
+  0.000  23.6070%             +1.034      +0.978 to +1.090   2.41e-285
+  0.050  23.5136%             +0.941      +0.886 to +0.995   5.56e-249
+  0.100  23.4550%             +0.882      +0.828 to +0.936   3.02e-227
+  0.150  23.3744%             +0.801      +0.749 to +0.854   1.95e-197
+  0.200  23.2987%             +0.726      +0.675 to +0.777   8.69e-171
+  0.250  23.2294%             +0.656      +0.607 to +0.706   7.25e-148
+  0.300  23.1366%             +0.564      +0.516 to +0.612   1.49e-117
+  0.350  23.0424%             +0.469      +0.424 to +0.515    1.97e-89
+  0.400  22.9581%             +0.385      +0.342 to +0.429    2.43e-67
+  0.450  22.8691%             +0.296      +0.255 to +0.337    6.91e-46
+  0.500  22.7865%             +0.214      +0.176 to +0.251    1.22e-28
+  0.550  22.7267%             +0.154      +0.120 to +0.188    9.73e-19
+  0.600  22.6685%             +0.096      +0.066 to +0.125    3.27e-10
+  0.625  22.6571%             +0.084      +0.057 to +0.111    1.09e-09
+  0.650  22.6363%             +0.063      +0.039 to +0.088    3.14e-07
+  0.675  22.6155%             +0.043      +0.022 to +0.064    7.71e-05
+  0.700  22.5928%             +0.020      +0.003 to +0.037      0.0248
+  0.725  22.5845%             +0.012      -0.001 to +0.024      0.0642
+  0.750  22.5729%             +0.000      +0.000 to +0.000           1  <- lowest
+  0.775  22.5762%             +0.003      -0.009 to +0.015       0.607
+  0.800  22.5855%             +0.013      -0.004 to +0.029       0.148
+  0.825  22.6127%             +0.040      +0.019 to +0.060    0.000141
+  0.850  22.6271%             +0.054      +0.031 to +0.078    6.19e-06
+  0.875  22.6395%             +0.067      +0.041 to +0.093    5.64e-07
+  0.900  22.6519%             +0.079      +0.051 to +0.107    4.55e-08
+  0.925  22.6721%             +0.099      +0.069 to +0.129    1.46e-10
+  0.950  22.6982%             +0.125      +0.093 to +0.157    2.41e-14
+  0.975  22.7305%             +0.158      +0.124 to +0.192    1.09e-19
+  1.000  22.7590%             +0.186      +0.150 to +0.222     1.7e-24
+
+lowest lambda in each run separately:
+  circuit_4   T= 5: best 0.725  (27.4550%; at 0.75: 27.4670%)
+  circuit_6   T= 7: best 0.750  (25.6120%; at 0.75: 25.6120%)
+  circuit_8   T= 9: best 0.775  (23.9010%; at 0.75: 23.9090%)
+  circuit_10  T=11: best 0.750  (23.3120%; at 0.75: 23.3120%)
+  circuit_12  T=13: best 0.700  (23.1840%; at 0.75: 23.2060%)
+  circuit_14  T=15: best 0.775  (22.0490%; at 0.75: 22.0720%)
+  circuit_16  T=17: best 0.650  (22.0580%; at 0.75: 22.0850%)
+  circuit_18  T=19: best 0.800  (20.9030%; at 0.75: 20.9400%)
+  circuit_20  T=21: best 0.800  (19.6250%; at 0.75: 19.6450%)
+  circuit_22  T=23: best 0.775  (20.8780%; at 0.75: 20.8830%)
+  circuit_24  T=25: best 0.850  (19.1190%; at 0.75: 19.1710%)
+
+nested choice: lambda = 0.775 (learning on even shots), 0.75 (learning on odd shots)
+  pooled error rate 22.5751%;  against fixed 0.75: +0.002 points (-0.007 to +0.011), McNemar p = 0.641
+
+chosen on the short runs: lambda = 0.75; on the long runs that gives 20.7993% (0.75: 20.7993%; best possible there: 20.7865% at 0.775)
+
+wrote lambda_scan.json and lambda_scan.png

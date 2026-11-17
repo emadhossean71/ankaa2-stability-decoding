@@ -1,0 +1,194 @@
+{
+ "distance": {
+  "no resets/circuit_2": {
+   "N": 4,
+   "T": 3,
+   "readout_only": 2,
+   "full_model": 2
+  },
+  "no resets/circuit_4": {
+   "N": 6,
+   "T": 5,
+   "readout_only": 3,
+   "full_model": 3
+  },
+  "no resets/circuit_6": {
+   "N": 8,
+   "T": 7,
+   "readout_only": 4,
+   "full_model": 4
+  },
+  "no resets/circuit_8": {
+   "N": 10,
+   "T": 9,
+   "readout_only": 5,
+   "full_model": 5
+  },
+  "no resets/circuit_10": {
+   "N": 12,
+   "T": 11,
+   "readout_only": 6,
+   "full_model": 6
+  },
+  "no resets/circuit_12": {
+   "N": 14,
+   "T": 13,
+   "readout_only": 7,
+   "full_model": 7
+  },
+  "no resets/circuit_14": {
+   "N": 16,
+   "T": 15,
+   "readout_only": 8,
+   "full_model": 8
+  },
+  "no resets/circuit_16": {
+   "N": 18,
+   "T": 17,
+   "readout_only": 9,
+   "full_model": 9
+  },
+  "no resets/circuit_18": {
+   "N": 20,
+   "T": 19,
+   "readout_only": 10,
+   "full_model": 10
+  },
+  "no resets/circuit_20": {
+   "N": 22,
+   "T": 21,
+   "readout_only": 11,
+   "full_model": 11
+  },
+  "no resets/circuit_22": {
+   "N": 24,
+   "T": 23,
+   "readout_only": 12,
+   "full_model": 12
+  },
+  "no resets/circuit_24": {
+   "N": 26,
+   "T": 25,
+   "readout_only": 13,
+   "full_model": 13
+  },
+  "with resets/circuit_2": {
+   "N": 4,
+   "T": 3,
+   "readout_only": 4,
+   "full_model": 4
+  },
+  "with resets/circuit_6": {
+   "N": 8,
+   "T": 7,
+   "readout_only": 8,
+   "full_model": 8
+  },
+  "with resets/circuit_10": {
+   "N": 12,
+   "T": 11,
+   "readout_only": 12,
+   "full_model": 12
+  },
+  "with resets/circuit_14": {
+   "N": 16,
+   "T": 15,
+   "readout_only": 16,
+   "full_model": 16
+  },
+  "with resets/circuit_18": {
+   "N": 20,
+   "T": 19,
+   "readout_only": 20,
+   "full_model": 20
+  },
+  "with resets/circuit_22": {
+   "N": 24,
+   "T": 23,
+   "readout_only": 24,
+   "full_model": 24
+  }
+ },
+ "simulated": {
+  "no resets/7/0.03": {
+   "ler": 0.058975,
+   "firing": 0.15020125
+  },
+  "no resets/7/0.082": {
+   "ler": 0.33465,
+   "firing": 0.3176683928571429
+  },
+  "no resets/11/0.03": {
+   "ler": 0.024935,
+   "firing": 0.15150920454545455
+  },
+  "no resets/11/0.082": {
+   "ler": 0.296595,
+   "firing": 0.3200175
+  },
+  "no resets/15/0.03": {
+   "ler": 0.011355,
+   "firing": 0.15220475
+  },
+  "no resets/15/0.082": {
+   "ler": 0.266055,
+   "firing": 0.32076733333333335
+  },
+  "no resets/19/0.03": {
+   "ler": 0.005,
+   "firing": 0.15234276315789474
+  },
+  "no resets/19/0.082": {
+   "ler": 0.23801,
+   "firing": 0.32130190789473684
+  },
+  "no resets/23/0.03": {
+   "ler": 0.00243,
+   "firing": 0.1524775543478261
+  },
+  "no resets/23/0.082": {
+   "ler": 0.21625,
+   "firing": 0.3216
+  },
+  "with resets/7/0.03": {
+   "ler": 0.00852,
+   "firing": 0.15083464285714285
+  },
+  "with resets/7/0.082": {
+   "ler": 0.177575,
+   "firing": 0.3195651785714286
+  },
+  "with resets/11/0.03": {
+   "ler": 0.001545,
+   "firing": 0.15074545454545454
+  },
+  "with resets/11/0.082": {
+   "ler": 0.119455,
+   "firing": 0.31950238636363637
+  },
+  "with resets/15/0.03": {
+   "ler": 0.000255,
+   "firing": 0.15102166666666667
+  },
+  "with resets/15/0.082": {
+   "ler": 0.084065,
+   "firing": 0.31955241666666667
+  },
+  "with resets/19/0.03": {
+   "ler": 5e-05,
+   "firing": 0.15065105263157894
+  },
+  "with resets/19/0.082": {
+   "ler": 0.059545,
+   "firing": 0.3191965131578947
+  },
+  "with resets/23/0.03": {
+   "ler": 2e-05,
+   "firing": 0.1507467391304348
+  },
+  "with resets/23/0.082": {
+   "ler": 0.04318,
+   "firing": 0.3193410326086957
+  }
+ }
+}

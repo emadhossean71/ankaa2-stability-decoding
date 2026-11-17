@@ -1,0 +1,9 @@
+# raw and derived data: download from Zenodo (see README), regenerate with preprocess*.py
+*.h5
+*.npz
+*.npy
+lep_*.txt
+defect_rates_per_round.txt
+__pycache__/
+.idea/
+.DS_Store
